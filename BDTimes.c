@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <strings.h>
 #include "BDPartidas.h"
 
 
@@ -104,7 +105,7 @@ void consultar_time(char *busca, BDTimes *bd){
    //var caso não seja encontrado um time
    int erro = 1;
 
-   //Cabeçario tabulado
+   //Cabeçalho tabulado
    printf("\n%-3s %-15s %-3s %-3s %-3s %-5s %-5s %-5s %-5s\n", "ID", "Time", "V", "E", "D", "GM", "GS", "S", "PG");
 
    //busca times pelo seu nome sem distinção de maiúscula ou minúscula

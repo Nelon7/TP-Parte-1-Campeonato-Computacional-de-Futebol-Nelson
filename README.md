@@ -1,6 +1,6 @@
 # TP Parte1: Campeonato Computacional de Futebol
 Este projeto é um sistema simples de gerenciamento de campeonato de futebol. O sistema faz a busca de times e partidas por prefixos, e apresenta uma tabela de classificação por meio de dados lidos em arquivos CSV.
-##Sobre os arquivos
+## Sobre os arquivos
 | Arquivo  | Descrição |
 | ------------- | ------------- |
 | `main.c`  | Função main e auxiliares de menu |

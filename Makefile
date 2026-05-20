@@ -11,7 +11,7 @@ SRCS = main.c BDPartidas.c BDTimes.c
 OBJS = $(SRCS:.c=.o)
 
 # Executable name
-TARGET = test_dynvec
+TARGET = campeonato
 
 # Phony targets
 .PHONY: all compile run clean
